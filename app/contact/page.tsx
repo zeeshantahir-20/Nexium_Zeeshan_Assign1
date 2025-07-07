@@ -41,7 +41,6 @@ export default function Contact() {
     setIsSubmitting(false);
     alert("Thank you for your message! We'll get back to you soon.");
   };
-
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-indigo-50">
       <div className="container mx-auto px-4 py-16">
@@ -83,6 +82,7 @@ export default function Contact() {
                     <div>
                       <p className="font-semibold text-gray-900">Office</p>
                       <p className="text-gray-600">123 Innovation Street<br />Islamabad (PK), PC,44000</p>
+                    </div>
                     </div>
                 </CardContent>
               </Card>
